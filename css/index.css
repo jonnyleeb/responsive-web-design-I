@@ -157,4 +157,44 @@ footer {
 	justify-content: center;
 	margin-bottom: 100px;
 }
+/* Begin Media Queries */
+/* Tablet */
+@media (max-width:800px) {
+	.container {
+		width: 750px;
+	}
 
+	/* Header Styles */
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: space-evenly;
+	}
+
+	.logo {
+		order: -1;
+		width: 20%;
+		margin-bottom: 20px;
+	}
+
+	.main-nav a {
+		margin-bottom: 20px;
+		margin-left: 20px;
+	}
+
+	/* Call to Action Styles */
+	.call-to-action {
+		margin: 30px 0px;
+		margin-left: 150px;
+	}
+
+	.CTA-image {
+		display: none;
+	}
+
+	/* Mid Section */
+	.middle-img {
+		width: 100%;
+	}
+}
