@@ -159,6 +159,7 @@ footer {
 }
 /* Begin Media Queries */
 /* Tablet */
+
 @media (max-width:800px) {
 	.container {
 		width: 750px;
@@ -197,4 +198,53 @@ footer {
 	.middle-img {
 		width: 100%;
 	}
+}
+/* Mobile */
+
+@media (max-width:500px) {
+	.container {
+		width: 400px;
+	}
+
+	.logo {
+		width: 40%;
+
+	}
+
+	.main-nav {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.main-nav a {
+		border-top: 1px solid #9e9e9e;
+		border-bottom: 1px solid #9e9e9e;
+		padding: 20px;
+		margin: 0;
+		text-align: center;
+	}
+
+	/* Call to Action Styles */
+	.call-to-action {
+		margin: 30px 0px;
+		margin-left: 50px;
+	}
+
+	.features-about {
+		display: flex;
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.features, .services, .product, .vision {
+		margin-bottom: 20px;
+	}
+
+	.services-details {
+		display: flex;
+		flex-direction: column;
+		width: 400px;
+	
+    }
 }
